@@ -1,0 +1,2 @@
+(1)运行该项目前，需安装32位的python语言环境；
+(2) 在32位python语言环境下，安装好msvcrt，numpy, ctypes 函数包

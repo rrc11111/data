@@ -1,0 +1,16 @@
+﻿
+本程序使用python3.12 32-bit版本运行没问题,如果使用其它版本请自行尝试.
+
+(1)运行该项目前，需安装32位的python语言环境；
+(2) 在32位python语言环境下，安装好msvcrt，numpy, ctypes,keyboard支持包
+    cmd窗口运行:pip install xxx 安装支持包
+
+(3) WISEGLOVEU3D_L.dll 和WISEGLOVEU3D_R.dll 是相同文件的拷贝,
+    该文件是用C程序封装了WISEGLOVE.DLL(C++程序),调用双手时, 需要
+    #加载右手开发库
+	libright = CDLL("./wisegloveu3d_R.dll") 
+    #加载左手开发库
+	libleft = CDLL("./wisegloveu3d_L.dll")
+    程序里对不不同手套的访问,使用libright 和libleft实现各自的功能函数调用
+(4) 手套开发库里可以调用的功能函数,请参考本目录下wisegloveu3d.h
+ 
