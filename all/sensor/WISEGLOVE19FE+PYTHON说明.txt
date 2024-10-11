@@ -1,16 +1,16 @@
-﻿
-本程序使用python3.12 32-bit版本运行没问题,如果使用其它版本请自行尝试.
+﻿This programme runs fine with python 3.12 32-bit version, if you use other versions please try it yourself.
 
-(1)运行该项目前，需安装32位的python语言环境；
-(2) 在32位python语言环境下，安装好msvcrt，numpy, ctypes,keyboard支持包
-    cmd窗口运行:pip install xxx 安装支持包
+(1) Before running this project, you need to install 32-bit python language environment;
+(2) In 32-bit python environment, install msvcrt, numpy, ctypes, keyboard support package.
+    cmd window run:pip install xxx install support packages
 
-(3) WISEGLOVEU3D_L.dll 和WISEGLOVEU3D_R.dll 是相同文件的拷贝,
-    该文件是用C程序封装了WISEGLOVE.DLL(C++程序),调用双手时, 需要
-    #加载右手开发库
-	libright = CDLL("./wisegloveu3d_R.dll") 
-    #加载左手开发库
-	libleft = CDLL("./wisegloveu3d_L.dll")
-    程序里对不不同手套的访问,使用libright 和libleft实现各自的功能函数调用
-(4) 手套开发库里可以调用的功能函数,请参考本目录下wisegloveu3d.h
- 
+(3) WISEGLOVEU3D_L.dll and WISEGLOVEU3D_R.dll are copies of the same file.
+    WISEGLOVE.DLL(C++ program) is encapsulated with C program, when you call both hands, you need to
+    # Load the right hand development library
+	libright = CDLL(’. /wisegloveu3d_R.dll") 
+    #Load the left hand libraries
+	libleft = CDLL(’. /wisegloveu3d_L.dll")
+    To access different gloves in the programme, use libright and libleft to implement their respective function calls.
+(4) For the functions that can be called from the glove library, please refer to wisegloveu3d.h in this directory.
+
+Translated with DeepL.com (free version)
