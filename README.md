@@ -11,5 +11,7 @@ You can generate the corresponding RGB and depth data from the mkv file in the k
 ## **example:**
 https://xingying3x-cn-docs.nokov.com/shi-si-ren-ti-mu-ban/yi-53-dian-ren-ti-tie-dian-ji-qi-gu-ge-shuo-ming
 Detailed Posting instructions can be found on this website.(If you have a nokov system you can also follow these instructions)
-You can visualize trc files using action.py code.(Refer to the website for specific joint key points)
+You can visualize trc files using:
+   python action.py
+
 
