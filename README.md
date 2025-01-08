@@ -13,7 +13,7 @@ https://xingying3x-cn-docs.nokov.com/shi-si-ren-ti-mu-ban/yi-53-dian-ren-ti-tie-
 Detailed Posting instructions can be found on this website.(If you have a nokov system you can also follow these instructions)
 You can visualize trc files using:
   ```
-python action.py
+python action.py  ```
 
 You can play back the Lxxx.xls file using the GraspMF.exe program in the wiseglove folder.
 
