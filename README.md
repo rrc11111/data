@@ -14,4 +14,6 @@ Detailed Posting instructions can be found on this website.(If you have a nokov 
 You can visualize trc files using:
   ```python action.py
 
+###You can play back the Lxxx.xls file using the GraspMF.exe program in the wiseglove folder.
 
+You can apply for eye tracker freeware to process the raw eye tracker data（https://www.tobii.com/zh/products/software/data-analysis-tools/tobii-pro-lab/free-trial#freetrial）
