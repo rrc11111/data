@@ -10,6 +10,11 @@ You can generate the corresponding RGB and depth data from the mkv file in the k
 ### NOKOV
 The XINGYING software should be running, calibrated, and configured for network streaming before starting the Python scripts.
 The "Catch - trigger" switch in the data broadcast panel enables, that is, the remote trigger function is enabled. The port is the broadcast port for XINGYING to send control commands, and the default port is 7061
+### Wise-gloves
+Connect the Manus USB to the computer,The raw data, Angle data, and arm spatial position data of the data glove are called in real time through python.
+### Delsys
+Download and install the corresponding device SDK from Delsys official website (e.g. Trigno SDK)
+### Desl
 ## **example:**
 https://xingying3x-cn-docs.nokov.com/shi-si-ren-ti-mu-ban/yi-53-dian-ren-ti-tie-dian-ji-qi-gu-ge-shuo-ming
 Detailed Posting instructions can be found on this website.(If you have a nokov system you can also follow these instructions)
