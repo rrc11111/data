@@ -14,7 +14,6 @@ The "Catch - trigger" switch in the data broadcast panel enables, that is, the r
 Connect the Manus USB to the computer,The raw data, Angle data, and arm spatial position data of the data glove are called in real time through python.
 ### Delsys
 Download and install the corresponding device SDK from Delsys official website (e.g. Trigno SDK)
-### Desl
 ## **example:**
 https://xingying3x-cn-docs.nokov.com/shi-si-ren-ti-mu-ban/yi-53-dian-ren-ti-tie-dian-ji-qi-gu-ge-shuo-ming
 Detailed Posting instructions can be found on this website.(If you have a nokov system you can also follow these instructions)
