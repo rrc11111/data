@@ -7,7 +7,9 @@ You can generate the corresponding RGB and depth data from the mkv file in the k
 ## 🛠️ Installation
 
     Python 3, open3d, Numpy, Pandas, Scipy，pykinect_azure
-
+### NOKOV
+The XINGYING software should be running, calibrated, and configured for network streaming before starting the Python scripts.
+The "Catch - trigger" switch in the data broadcast panel enables, that is, the remote trigger function is enabled. The port is the broadcast port for XINGYING to send control commands, and the default port is 7061
 ## **example:**
 https://xingying3x-cn-docs.nokov.com/shi-si-ren-ti-mu-ban/yi-53-dian-ren-ti-tie-dian-ji-qi-gu-ge-shuo-ming
 Detailed Posting instructions can be found on this website.(If you have a nokov system you can also follow these instructions)
