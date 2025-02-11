@@ -50,13 +50,13 @@ if __name__ == "__main__":
     # 启动子进程
 
     p1.start()
-    time.sleep(1)
+    
     p5.start()
-    time.sleep(3)
+    
     p4.start()
-    time.sleep(0.7)
+    
     p2.start()
-    time.sleep(1.3)
+    
     p6.start()
     p3.start()
     # 6.95485\3.91674\2.5796322\1.3684\0.0268
