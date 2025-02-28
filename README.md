@@ -5,8 +5,10 @@ All sensor data acquisition codes are included in sensors.
 You can generate the corresponding RGB and depth data from the mkv file in the kinect file in the .bat file processing data.
 
 ## 🛠️ Installation
-
-    Python 3, open3d, Numpy, Pandas, Scipy，pykinect_azure
+The code is designed to run on a Windows 10 system. All necessary dependencies and setup instructions for Windows have been provided to ensure smooth execution
+Make sure you have Python 3.7 or higher installed 
+Install necessary Python packages. If you haven't done so already, you can use pip to install packages:
+    pip install open3d numpy pandas scipy pykinect_azure
 ### NOKOV
 The XINGYING software should be running, calibrated, and configured for network streaming before starting the Python scripts.
 The "Catch - trigger" switch in the data broadcast panel enables, that is, the remote trigger function is enabled. The port is the broadcast port for XINGYING to send control commands, and the default port is 7061
